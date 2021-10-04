@@ -1,0 +1,13 @@
+<h2>Education's Details</h2>
+<ul class="education">
+  <li *ngFor="let education of educations"
+    [class.selected]="education === selectedEducation"
+    (click)="onSelect(education)">
+    <!-- <span class="badge">{{employment.id}}</span>  -->
+    {{education.yearFrom}} - {{education.yearTill}}
+    University: {{education.name}}
+    Qualification: {{education.qualification}}
+  </li>
+</ul>
+
+<app-education-detail [education]="selectedEducation"></app-education-detail>

@@ -1,0 +1,25 @@
+/* .container {
+  max-width: 990px;
+  width: 100%;
+  margin: 0 auto;
+} */
+table {
+  width: 100%;
+  border: 3px solid grey;
+}
+
+td {
+  border: 1px solid grey;
+  padding: 10px 15px;
+
+  &:first-child {
+    width: 30%;
+    font-weight: 700;
+  }
+}
+
+
+
+h1 {
+  font-size: 54px;
+}
