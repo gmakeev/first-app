@@ -16,6 +16,7 @@ import { HomeComponent } from './components/home/home.component';
 import { CvComponent } from './components/cv/cv.component';
 import { CvTableComponent } from './components/cv/cv-table/cv-table.component';
 import { CvGridComponent } from './components/cv/cv-grid/cv-grid.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { CvGridComponent } from './components/cv/cv-grid/cv-grid.component';
     HomeComponent,
     CvComponent,
     CvTableComponent,
-    CvGridComponent
+    CvGridComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

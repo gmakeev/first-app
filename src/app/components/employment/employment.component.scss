@@ -1,4 +1,16 @@
-/* EmploymentsComponent's private CSS styles */
+@import '../../../styles';
+
+
+.employment {
+  &__wrap {    
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }  
+}
+
 .employments {
   margin: 0 0 2em 0;
   list-style-type: none;
