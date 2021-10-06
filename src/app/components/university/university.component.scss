@@ -1,0 +1,30 @@
+@import '../../../styles';
+
+
+.university {
+  &__wrap {    
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }  
+}
+
+.video {
+  width: 424px;
+  height: 238px;  
+  margin: 100px auto;
+}
+
+/* .video-link {
+  display: block;
+  width: 424px;
+  height: 238px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
