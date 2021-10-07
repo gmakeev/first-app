@@ -31,6 +31,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
   
 ];
 
+let  src1:string = "../../../assets/img/person/img1.jpg";
 
 @Component({
   selector: 'app-cv-table',

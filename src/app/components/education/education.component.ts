@@ -1,9 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Education } from '../../interfaces/education';
 import { EDUCATIONS } from '../../data/mock-education';
-//import { EducationService } from '../../services/education.service';
-
-
 @Component({
   selector: 'app-education',
   templateUrl: './education.component.html',
@@ -14,7 +11,6 @@ export class EducationComponent implements OnInit {
   educations = EDUCATIONS;
   
   selectedEducation: Education;
-  //educations = Education[];
 
   constructor(
     //private educationService: EducationService
