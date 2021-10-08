@@ -9,16 +9,8 @@ import { EMPLOYMENTS } from '../../data/mock-employment';
 })
 export class EmploymentComponent implements OnInit {
 
-  /* employment: Employment = {
-    id: 1,
-    yearFrom: 2003,
-    yearTill: 2012,
-    nameCompany: 'Raiffeisen Bank Aval',
-    position: 'Engineer technologist'
-  } */
   employments = EMPLOYMENTS;
   selectedEmployment: Employment;
-
 
   constructor() { }
 

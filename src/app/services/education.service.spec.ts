@@ -18,19 +18,11 @@ describe('EducationService', () => {
     service = TestBed.inject(EducationService);
   });
 
-  /* beforeEach( () => {
-    let service = new EducationService();
-  }); */
-  
-  it('has been creates', () => {
+    it('has been creates', () => {
     expect(service).toBeTruthy();
   });
 
-  /* it('getEducations() should return edu', () => {
-    expect(service.getEducations()).toEqual(EDUCATIONS);
-  }); */
-
-  it('getEducations() should return some educations', () => {
+    it('getEducations() should return some educations', () => {
     expect(service.getEducations()).toBeDefined();
   });
 
@@ -44,6 +36,3 @@ describe('EducationService', () => {
   });
 
 });
-
-
-  

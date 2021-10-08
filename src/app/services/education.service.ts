@@ -12,14 +12,6 @@ export class EducationService {
     private http: HttpClient,
   ) { }
 
-  /* getEducations(): Education[] {
-    return EDUCATIONS;
-  } */
-
-  /* getEducations(): Observable<Education[]> {
-    return of(EDUCATIONS);
-  } */
-
   getEducations(): Observable<Education[]> {    
     return of(EDUCATIONS);
   }

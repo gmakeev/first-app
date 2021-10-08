@@ -4,7 +4,6 @@
     <ul class="employment">
       <li *ngFor="let employment of employments" [class.selected]="employment === selectedEmployment"
         (click)="onSelect(employment)">
-        <!-- <span class="badge">{{employment.id}}</span>  -->
         {{employment.yearFrom}} - {{employment.yearTill}}
         Company: {{employment.nameCompany}}
         Position: {{employment.position}}

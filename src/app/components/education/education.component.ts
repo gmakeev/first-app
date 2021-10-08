@@ -12,25 +12,13 @@ export class EducationComponent implements OnInit {
   
   selectedEducation: Education;
 
-  constructor(
-    //private educationService: EducationService
-  ) { }
+  constructor(  ) { }
 
   ngOnInit(): void {
-    //this.getEducations();
   }
 
   onSelect(education: Education): void {
     this.selectedEducation = education;
   }
-
-  /* getEducations(): void {
-    this.educations = this.educationService.getEducations();
-  } */
-
-  /* getEducations(): void {
-    this.educationService.getEducations()
-    .subscribe(educations => this.educations = educations);
-  } */
-
+  
 }
